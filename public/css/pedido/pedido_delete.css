@@ -1,0 +1,40 @@
+/* Estilos para el modal de eliminación de ventas */
+.modal-content {
+    background: rgba(255, 255, 255, 0.9); /* Fondo con transparencia */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.modal-title {
+    text-align: center;
+    color: #000; /* Color del título */
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.modal-footer {
+    text-align: center;
+    border-radius: 10px;
+}
+
+.modal-footer .btn-secondary {
+    background: linear-gradient(#FF7514,#FF2301,#FE0000); /* Color del botón "Cerrar" */
+    color: #fff;
+}
+
+.modal-footer .btn-danger {
+    background: linear-gradient(#3d0303, #6d0202, #ff0505);  /* Color del botón "Eliminar" */
+    color: #fff;
+}
+
+/* Personalizar el botón "Cerrar" al pasar el mouse */
+.modal-footer .btn-secondary:hover {
+    background: linear-gradient(#FF7514,#FF2301,#FE0000); /* Color más oscuro al pasar el mouse */
+}
+
+/* Personalizar el botón "Eliminar" al pasar el mouse */
+.modal-footer .btn-danger:hover {
+    background: linear-gradient(#3d0303, #6d0202, #ff0505);  /* Color más oscuro al pasar el mouse */
+}

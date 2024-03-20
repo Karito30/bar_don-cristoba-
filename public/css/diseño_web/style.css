@@ -1,0 +1,112 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: serif;
+}
+
+.main-parent{
+   width: 100%;
+   height: 100vh;
+   background-image: url(imagen/GettyImages_1265468202.7.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.main-parent .form-wrap{
+   width: 450px;
+   max-width: 500px;
+   background: rgba(255, 255, 255,75%);
+   border-radius: 10px;
+   padding: 40px 40px;
+   backdrop-filter: blur(1px);
+   margin: 300px auto;
+   display: flex;
+   align-items: center;
+}
+
+.main-parent .form-wrap h1{
+   font-variant: small-caps;
+   font-size: 45px;
+   text-align: center;
+   margin-bottom: 15px;
+}
+
+.main-parent .form-wrap .single-input input{
+   width: 100%;
+   padding: 10px 0px;
+   border:1px solid rgba(0, 0, 0, 0.352) ;
+   outline: none;
+   background-color: transparent;
+   margin-bottom: 10px;
+   font-size: 17px;
+   font-family: serif;
+   
+}
+
+.main-parent .form-wrap img{
+   width: 28px;
+   cursor: pointer;
+   position: absolute;
+    top: 176px;
+    right: 49px;
+    font-size: 22px;
+}
+
+.submit-button button{
+   padding: 13px 30px;
+    background-color: beige;
+    outline: none;
+    border: none;
+    color: #000;
+    font-family: serif;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0px 0 0 120px;
+}
+
+.account-have{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 14px;
+   margin-top: 14px;
+}
+
+.account-have a{
+   color: rgb(34, 34, 34);
+   text-decoration: none;
+   font-family: serif;
+}
+
+i{
+  position: relative;
+   color:  #9a9393;;
+   top: 35px;
+  left: 350px;
+
+}
+
+.single-input i{
+   right: 15px;
+   color: var(--dark);
+   font-size: 16px;
+   margin-top: -23px;
+   cursor: pointer;
+   padding: 8px;
+  }
+.single-input i{
+   position: absolute;
+   top: 58%;
+   left: 370px;    
+}    
+
+.submit-button a{
+   color: rgb(34, 34, 34);
+   text-decoration: none;
+   font-family: serif;
+}

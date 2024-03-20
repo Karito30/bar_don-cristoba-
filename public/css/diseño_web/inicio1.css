@@ -1,0 +1,153 @@
+
+/*estilo de letra */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+/*estilo de letra*/
+body{
+  font-family:serif;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/*fondo y alineacion de sobre nosotros*/
+.header{
+  background-image: url(img/sobremesa-madera-vacia-cafeteria-borrosa_7188-1337.avif);
+      background-position: center bottom;
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+    }
+    /*alineacion de las paginas complementarias y logo*/
+    .menu{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    
+    /*color del logo*/
+    .logo {
+    
+      color: white;
+      font-size: 40px;
+      font-weight: 800;
+    
+    
+    }
+    .logos  {
+    
+        width: 120px;
+          height: 120px;
+      }
+    /*alineacion de las paginas complementarias*/
+    .menu .navbar ul li {
+      position: relative;
+      float: left;
+    }
+    /*color secundario de las paginas coplementarias*/
+    .menu .navbar ul li a:hover{
+      color: #ffffff;
+    }
+    /*color principal de la paginas complementarias*/
+    .menu .navbar ul  li a{
+      font-size: 18px;
+      padding: 20px;
+      color: white;
+      display: block;
+      font-weight: 100px;
+    }
+    
+    #menu{
+      display: none;
+    }
+    
+    
+    .menu label {
+      cursor: pointer;
+      display: none;
+    }
+    .menu{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 92px;
+      background: linear-gradient(to bottom,  #3d0303, #6d0202, #ff0505); 
+      position:absolute;
+      width: 200%;
+      z-index: 300;
+      size: 100cm;
+    
+    }
+    
+    .navbar{
+      display: flex;
+      margin-right:0px ;
+    }
+    .navbar a{
+      display: block;
+      padding: 23px 20px;
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 20px;
+    }
+    
+    .navbar a:hover{
+      background: #3d0303;
+    }
+
+
+.main-parent .form-wrap{
+    width: 450px;
+    background: rgba(255, 255, 255,75%);
+    border-radius: 10px;
+    padding: 40px 40px;
+    backdrop-filter: blur(1px);
+}
+.main-parent .form-wrap h1 {
+  font-variant: small-caps;
+  font-size: 3em; /* Ajusta el tamaño de la fuente según tus preferencias */
+  text-align: center;
+  margin-bottom: 20px; /* Ajusta el margen inferior según tus preferencias */
+}
+
+/*primer titulo principal*/
+.header-content {
+  font-size: 59px;
+  color: white;
+  text-transform: uppercase;
+  text-align:center;
+}
+.header-content img{
+  width:500px;
+  top: 00px;
+}
+/*color del boton y alineacion*/
+.btn-1 {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #CA6F1E;
+  color: black;
+  text-transform: uppercase;
+}
+/*cambiar color del boton al seleccionarlo*/
+.btn-1:hover {
+  background-color: beige;
+}
+ 

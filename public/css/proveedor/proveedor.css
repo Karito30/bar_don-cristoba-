@@ -1,0 +1,94 @@
+/* Estilos generales para la página */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(img/Bar-vintage-con-iluminación-roja.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+/* Estilos para el formulario de búsqueda */
+.form-control {
+    width: 300px;
+    padding: 10px;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #19191a;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    color: #19191a;
+}
+
+th {
+    background-color: #FF0000;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.75);
+}
+
+/* Estilos para los botones */
+.btn {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.btn btn-primary {
+    background-color: aqua; /* Cambia el color de fondo a azul */
+    color: #fff;
+}
+
+.btn-warning {
+    background-color: blueviolet; /* Cambia el color de fondo a naranja */
+    color: #fff;
+}
+
+.btn-danger {
+    background-color: olivedrab; /* Cambia el color de fondo a rojo */
+    color: #fff;
+}
+
+/* Estilos para los enlaces de paginación */
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination a {
+    text-decoration: none;
+    padding: 5px 13px;
+    background-color: #FF0000;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.pagination a:hover {
+    background-color: #FE0000;
+}

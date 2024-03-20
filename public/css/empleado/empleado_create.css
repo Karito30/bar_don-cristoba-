@@ -1,0 +1,74 @@
+/* Estilos generales para la página */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(img/1366_2000.png);
+    padding: 0;
+}
+
+h1 {
+    color: #000;
+    text-align: center;
+}
+
+/* Estilos para el formulario de creación de venta */
+form {
+    background: rgba(255, 255, 255, 0.75); /* Fondo semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* Estilos para los labels */
+form label {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Estilos para los input y select */
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para el botón de enviar */
+form input[type="submit"] {
+    background: linear-gradient(to bottom, #3d0303, #960303); /* Fondo con gradiente */
+    color: #fff;
+    border: none;
+    padding: 10px 10px; /* Tamaño más pequeño */
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+form input[type="submit"]:hover {
+    background: linear-gradient(to bottom, #3d0303, #960303); /* Fondo con gradiente al pasar el mouse */
+}
+
+/* Estilos para el mensaje de error de mesa */
+#mesaError {
+    color: #dc3545; /* Rojo */
+}
+
+/* CSS personalizado para campos de entrada con errores */
+.is-invalid {
+    border-color: #f44336; /* Borde rojo */
+    color: #f44336; /* Texto rojo */
+}
+
+.invalid-feedback-custom {
+    color: #f44336; /* Texto rojo */
+    font-size: 14px; /* Tamaño de fuente personalizado */
+    margin-top: 4px; /* Espacio superior personalizado */
+
+
+}
+
+.is-valid {
+    border-color: #28a745;
+}

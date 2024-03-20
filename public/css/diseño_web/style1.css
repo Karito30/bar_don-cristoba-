@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+.main-parent{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    
+    background-image: url(img/sobremesa-madera-vacia-cafeteria-borrosa_7188-1337.avif);
+      background-position: center bottom;
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+    }
+    /*alineacion de las paginas complementarias y logo*/
+    .menu{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    
+    /*color del logo*/
+    .logo {
+    
+      color: white;
+      font-size: 40px;
+      font-weight: 800;
+    
+    
+    }
+    .logos  {
+    
+        width: 120px;
+          height: 120px;
+      }
+    /*alineacion de las paginas complementarias*/
+    .menu .navbar ul li {
+      position: relative;
+      float: left;
+    }
+    /*color secundario de las paginas coplementarias*/
+    .menu .navbar ul li a:hover{
+      color: #ffffff;
+    }
+    /*color principal de la paginas complementarias*/
+    .menu .navbar ul  li a{
+      font-size: 18px;
+      padding: 20px;
+      color: white;
+      display: block;
+      font-weight: 100px;
+    }
+    
+    #menu{
+      display: none;
+    }
+    
+    
+    .menu label {
+      cursor: pointer;
+      display: none;
+    }
+    .menu{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 83px;
+      background: linear-gradient(to bottom,  #3d0303, #6d0202, #ff0505); 
+      position:absolute;
+      width: 100%;
+      z-index: 300;
+      size: 100cm;
+    
+    }
+    
+    .navbar{
+      display: flex;
+      margin-right:0px ;
+    }
+    .navbar a{
+      display: block;
+      padding: 23px 20px;
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 20px;
+    }
+    
+    .navbar a:hover{
+      background: #3f3f3f;
+    }
+
+
+.main-parent .form-wrap{
+    width: 450px;
+    background: rgba(255, 255, 255,75%);
+    border-radius: 10px;
+    padding: 40px 40px;
+    backdrop-filter: blur(1px);
+}
+
+.main-parent .form-wrap h1{
+    font-variant: small-caps;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.main-parent .form-wrap .single-input input{
+    width: 100%;
+    padding: 14px 10px;
+    border:1px solid rgba(0, 0, 0, 0.352) ;
+    outline: none;
+    background-color: transparent;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: serif;
+}
+
+.submit-button{
+    text-align: center;
+}
+
+.submit-button button{
+    padding: 13px 30px;
+    background: linear-gradient(to bottom,  #3d0303, #6d0202, #ff0505); 
+    outline: none;
+    border: none;
+    color: #fff;
+    font-family: serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.account-have{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 14px;
+}
+
+.account-have a{
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+    font-family: serif;
+}
+
+.single-input i{
+    right: 15px;
+    color: var(--dark);
+    font-size: 21px;
+    margin-top: -23px;
+    cursor: pointer;
+    padding: 8px;
+   }
+.single-input i{
+    position: absolute;
+    top: 77%;
+    left: 370px;    
+}    
+.submit-button a{
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+    font-family: serif;
+ }
+ .password-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* Ajusta la posición del botón dentro del contenedor */
+.password-container button {
+  position: absolute;
+  right: 410px; /* Puedes ajustar la posición según tus necesidades */
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+/* Ajusta la posición del ícono del ojo */
+.password-container i {
+  font-size: 1.2em;
+  color: #3f3f3f; /* Puedes ajustar el color según tus preferencias */
+}
+
+
+
+.toggle-password {
+  position: relative;
+  cursor: pointer;
+}
+
+.toggle-password i {
+  position: relative;
+  top: -15px;
+  left: 330px;
+  transform: translateY(-50%);
+  color: #3f3f3f; /* Puedes ajustar el color según tus preferencias */
+}
+
+
+.menu-bar {
+  background: linear-gradient(to right,#6d0202, #000000, #ff0505);
+  color: #fff;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.menu-bar-logo {
+  margin-left: 30px;
+}
+
+.menu-bar-logo img {
+  height: 80px; /* Adjust the height as needed */
+  width: auto; /* Maintain aspect ratio */
+}
+
+.menu-bar-items {
+  margin-right: 20px;
+}
+
+.menu-bar-items ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.menu-bar-items ul li {
+  margin-right: 20px;
+}
+
+.menu-bar-items ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.header {
+  background-image: url(imagen/14.png);
+  color: #000000;
+}
+
+/* Estilos para el cuerpo de la página en modo oscuro */
+.header.dark-mode {
+  background-image: url(img/13\ \(13\).png);
+  color: #ffffff;
+}
+

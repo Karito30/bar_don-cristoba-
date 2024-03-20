@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d3b282;
+  height: 100vh;
+  width: 100vw;
+  font-family: Roboto, Arial, sans-serif;
+  color: black;
+  text-align: center;
+  background-image: url(imagen/GettyImages_1265468202.7.jpg);
+}
+
+
+img {
+  width: 350px;
+  position: absolute;
+  left: 200px;
+  top: 0;
+  margin-top: 50px;
+  position: fixed;
+}
+.not-found {
+  width: 560px;
+  height: 225px;
+  margin-right: -10px;
+  margin-top: 50px;
+}
+.starry-sky {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+.search-icon {
+  display: inline-block;
+}
+.notfound-copy {
+  color: white;
+  position: fixed;
+  top: 25px;
+  right: 10%;
+  text-align: right;
+}
+h1 {
+   font-weight: 700;
+  font-size: 40px;
+}
+a {
+  font-weight: 300;
+  color:white;
+  border-bottom: 1.5px solid #5581d4;
+  text-decoration: none;
+}
+a:hover {
+  font-weight: 300;
+  color: white;
+  border-bottom: 2px solid beige;
+  text-decoration: none;
+}
+body{
+background-color: b;
+}
+
+button[type="submit"] {
+border: 0;
+background: none;
+display: block;
+margin: 20px auto;
+padding: 14px 10px;
+text-align: center;
+border: 2px solid #d3b282;
+width: 200px;
+outline: none;
+color: black;
+border-radius: 24px;
+transition: 0.25s; 
+margin-top: 500px;
+position: fixed;
+left: 1000px;
+}
+
+button[type="submit"] {
+border: 0;
+background-color: #d3b282 ;
+cursor: pointer;
+border: 2px solid #d3b282;
+}
+
+button[type="submit"]:hover {
+background: none;
+}

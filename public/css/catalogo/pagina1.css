@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: blue;
+}
+.header {
+    background: linear-gradient(#3d0303, #6d0202, #ff0505);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.bar-name h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 10px 0;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto;
+}
+
+/* Estilo de cada producto */
+.producto {
+    width: calc(33.33% - 20px); /* Ancho de cada producto (33.33% del contenedor) con margen entre ellos */
+    margin-bottom: 20px; /* Espacio entre los productos */
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: rgba(255, 255, 255,75%);
+    box-sizing: border-box; /* Evita que el borde afecte el ancho del producto */
+    text-align: center;
+}
+
+/* Estilo de las imágenes */
+.producto img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    transition: transform 0.2s; 
+}
+
+/* Estilo para el título */
+.producto h2 {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+/* Estilo para el precio */
+.producto .precio {
+    font-weight: bold;
+    color: #3d0303;
+    transition: transform 0.2s; 
+    border: 1px solid ;
+}
+.producto img:hover {
+    transform: scale(1.4); /* Escala la imagen al 110% del tamaño original */
+}
+.producto .precio:hover {
+    transform: scale(1.1);
+    border: 1px #3d0303;
+}
+
+/* Estilos para pantallas pequeñas (menos de 768px de ancho) */
+@media screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .producto {
+        margin-bottom: 20px;
+    }
+}
+
+/* Estilos para imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}

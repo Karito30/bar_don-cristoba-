@@ -1,0 +1,79 @@
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+  font-family: Helvetica, Arial, sans-serif, system-ui;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 0;
+  background-image: url(imagen/GettyImages_1265468202.7.jpg);
+
+}
+
+h1 {
+  --distance: .01em;
+  --dist-factor: 1;
+  position: relative;
+  display: block;
+  margin: 0;
+  font-size: 15vmax;
+  font-weight: normal;
+  font-family: monospace;
+  line-height: 1;
+  color: white;
+  filter: saturate(150%);
+  left: 10px;
+} 
+[data-overlay] {
+    position: relative;
+  }
+    
+    
+  img {
+    width: 10px;
+    position: absolute;
+    left: 200px;
+    top: 0;
+    margin-top: 0;
+    position: fixed;
+  }
+  h2 {
+	position: relative;
+	color: white;
+	text-align: center;
+	left: 10px;
+  }
+  button[type="submit"] {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	padding: 14px 10px;
+	text-align: center;
+	border: 2px solid #d3b282;
+	width: 200px;
+	outline: none;
+	color: black;
+	border-radius: 24px;
+	transition: 0.25s; 
+	margin-top: 500px;
+	position: fixed;
+	left: 600px;
+	}
+	
+	button[type="submit"] {
+	border: 0;
+	background-color: #d3b282;
+	cursor: pointer;
+	border: 2px solid #d3b282;
+	}
+	
+	button[type="submit"]:hover {
+	background: none;
+	}

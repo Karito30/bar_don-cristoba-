@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    display: flex;
+}
+
+.sidebar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 110px;
+    height: 100vh;
+    padding: 0 1.7rem;
+    color: #fff;
+    overflow: hidden;
+    transition: all 0.5s linear;
+    background: linear-gradient(#3d0303, #6d0202, #ff0505);
+}
+
+
+.sidebar:hover {
+    width: 240px;
+    transition: 0.5s;
+}
+
+.logo{
+    height: 80px;
+    padding: 16px;
+}
+
+.menu{
+    height: 88%;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+
+.menu li{
+    padding: 1rem;
+    margin: 8px 0;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.menu li:hover,
+.active {
+    background: #e0e0e058 ;
+}
+
+
+.menu a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+
+.menu a span {
+    overflow: hidden;
+}
+
+
+.menu a i {
+    font-size: 1.2rem;
+}
+form {
+    display: flex;
+    align-items: center;
+}
+
+.fas {
+    margin-right: 5px; /* Espacio entre el ícono y el texto */
+}
+
+a {
+    text-decoration: none;
+    color: #333; /* Color del texto */
+}
+
+
+/* ****parte 2**** */
+
+.main--content {
+    position: relative;
+    background: #ebe9e9;
+    width: 100%;
+    padding: 1rem;
+}
+
+
+.header--wrapper img  {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+.header--wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px 2rem;
+    margin-bottom: 1rem;
+}
+    
+
+.header--title {
+    color: #3d0303, #6d0202, #ff0505;
+}
+
+
+.user--info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.searh--box {
+    background: rgb(237, 237, 237);
+    border-radius: 15px;
+    color: #3d0303, #6d0202, #ff0505;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 12px;
+}
+
+
+.searh--box input {
+    background: transparent;
+    padding: 10px;
+}
+
+
+.searh--box i {
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+
+.searh--box i:hover {
+    transform: scale(1.2);
+}
+
+/* Style for the notification dropdown */
+.notification-dropdown {
+    position: relative;
+}
+
+/* Style for the badge count */
+.notification-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #dc3545; /* You can change the background color */
+    color: #fff;
+    padding: 0.3em 0.6em;
+    border-radius: 50%;
+}
+
+/* Style for the notification items */
+.notification-item {
+    display: block;
+    padding: 0.75rem 1.25rem;
+    clear: both;
+    font-size: 0.875rem;
+    color: #495057;
+    text-decoration: none;
+}
+
+.notification-item:hover {
+    background-color: #f8f9fa; /* Hover background color */
+}
+
+.notification-icon {
+    float: left;
+    margin-right: 15px;
+}
+
+.notification-content {
+    overflow: hidden;
+}
+
+/* Style for the divider between notification items */
+.notification-divider {
+    margin: 0.5rem 0;
+    border: 1px solid #dee2e6;
+}
+
+/* Style for the "Ver todo" link */
+.view-all-link {
+    display: block;
+    padding: 0.75rem 1.25rem;
+    text-align: center;
+    color: #007bff; /* Link color */
+    text-decoration: none;
+}
+
+.view-all-link:hover {
+   
+   text-decoration: underline;
+}
+
